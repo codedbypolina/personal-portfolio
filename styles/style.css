@@ -2,7 +2,21 @@ body {
   font-family: "Space Mono", monospace;
 }
 
-h2 {
+#introduction {
   font-weight: bold;
-  font-size: 36px;
+  font-size: 28px;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.hero {
+  text-align: center;
 }
