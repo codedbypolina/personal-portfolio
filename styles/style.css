@@ -1,11 +1,17 @@
+:root {
+  --primary-color: #015d84;
+}
+
 body {
   font-family: "Space Mono", monospace;
+  color: var(--primary-color);
 }
 
 #introduction {
   font-weight: bold;
   font-size: 28px;
   margin: 0;
+  margin-top: 300px;
 }
 
 h1 {
