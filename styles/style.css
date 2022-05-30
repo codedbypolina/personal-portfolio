@@ -7,11 +7,19 @@ body {
   color: var(--primary-color);
 }
 
+/* HEADER */
+
+.hero {
+  min-height: 100vh;
+  background: linear-gradient(to right top, #00709f, rgb(45, 191, 254, 0.2));
+  text-align: center;
+}
+
 #introduction {
   font-weight: bold;
   font-size: 28px;
   margin: 0;
-  margin-top: 300px;
+  padding-top: 300px;
 }
 
 h1 {
@@ -23,6 +31,28 @@ h2 {
   font-size: 30px;
 }
 
-.hero {
-  text-align: center;
+.wave-1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave-1 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.wave-1 .shape-fill {
+  fill: #ffffff;
+}
+
+/* MAIN SECTION */
+.about-me {
+  position: relative;
+  margin: 10%;
 }
