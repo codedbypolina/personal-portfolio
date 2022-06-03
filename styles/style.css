@@ -13,6 +13,12 @@ body {
   min-height: 100vh;
   background: linear-gradient(to right top, #00709f, rgb(45, 191, 254, 0.2));
   text-align: center;
+  border-bottom-right-radius: 150px;
+}
+
+.intro {
+  height: 1100px;
+  position: relative;
 }
 
 #introduction {
@@ -31,9 +37,9 @@ h2 {
   font-size: 30px;
 }
 
+/* Wave style */
 .wave-1 {
   position: absolute;
-  bottom: 0;
   left: 0;
   width: 100%;
   overflow: hidden;
@@ -44,7 +50,7 @@ h2 {
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
-  height: 150px;
+  height: 218px;
 }
 
 .wave-1 .shape-fill {
@@ -54,7 +60,6 @@ h2 {
 /* MAIN SECTION */
 
 .about-me {
-  border: 1px solid black;
   padding: 20px;
   border-radius: 8px;
   margin: 5%;
@@ -70,4 +75,16 @@ h2 {
 #headshot {
   width: 300px;
   height: 300px;
+}
+
+.glass {
+  position: relative;
+  margin-top: -150px;
+  z-index: 2;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  backdrop-filter: blur(6px);
 }
