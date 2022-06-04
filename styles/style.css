@@ -1,5 +1,15 @@
 :root {
   --primary-color: #015d84;
+  --primary-gradient: linear-gradient(
+    to right top,
+    #00709f,
+    rgb(45, 191, 254, 0.2)
+  );
+  --glass-gradient: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
 }
 
 body {
@@ -11,7 +21,7 @@ body {
 
 .hero {
   min-height: 100vh;
-  background: linear-gradient(to right top, #00709f, rgb(45, 191, 254, 0.2));
+  background: var(--primary-gradient);
   text-align: center;
   border-bottom-right-radius: 150px;
 }
@@ -81,10 +91,16 @@ h2 {
   position: relative;
   margin-top: -150px;
   z-index: 2;
-  background: linear-gradient(
-    to right bottom,
-    rgba(255, 255, 255, 0.7),
-    rgba(255, 255, 255, 0.3)
-  );
+  background: var(--glass-gradient);
   backdrop-filter: blur(6px);
+}
+
+.circle-1 {
+  background: var(--primary-gradient);
+  height: 25rem;
+  width: 25rem;
+  position: absolute;
+  top: 1200px;
+  left: -100px;
+  border-radius: 50%;
 }
