@@ -29,6 +29,28 @@ body {
   border-radius: 50%;
 }
 
+.glass {
+  position: relative;
+  z-index: 2;
+  background: var(--glass-gradient);
+  backdrop-filter: blur(6px);
+  padding: 20px;
+  margin: 5%;
+}
+
+h1 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-weight: bold;
+}
+
 /* HEADER */
 
 .hero {
@@ -48,19 +70,6 @@ body {
   font-size: 28px;
   margin: 0;
   padding-top: 300px;
-}
-
-h1 {
-  font-family: "Roboto Mono", monospace;
-  font-size: 60px;
-}
-
-h2 {
-  font-size: 30px;
-}
-
-h3 {
-  font-weight: bold;
 }
 
 /* wave */
@@ -88,12 +97,6 @@ h3 {
 
 /* about me */
 
-.about-me {
-  padding: 20px;
-  border-radius: 8px;
-  margin: 5%;
-}
-
 .description {
   display: flex;
   align-items: center;
@@ -106,18 +109,20 @@ h3 {
   height: 300px;
 }
 
-.glass {
-  position: relative;
+.about-me {
   margin-top: -150px;
-  z-index: 2;
-  background: var(--glass-gradient);
-  backdrop-filter: blur(6px);
 }
 
 /* projects */
+
 .project-img {
   width: 20rem;
 }
 
-.icons {
+i {
+  transition: 200ms ease-in-out;
+}
+
+i:hover {
+  opacity: 80%;
 }
