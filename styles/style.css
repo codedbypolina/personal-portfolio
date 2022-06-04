@@ -1,3 +1,5 @@
+/* GENERAL */
+
 :root {
   --primary-color: #015d84;
   --primary-gradient: linear-gradient(
@@ -15,6 +17,16 @@
 body {
   font-family: "Space Mono", monospace;
   color: var(--primary-color);
+}
+
+.circle-1 {
+  background: var(--primary-gradient);
+  height: 25rem;
+  width: 25rem;
+  position: absolute;
+  top: 1200px;
+  left: -100px;
+  border-radius: 50%;
 }
 
 /* HEADER */
@@ -47,7 +59,8 @@ h2 {
   font-size: 30px;
 }
 
-/* Wave style */
+/* wave */
+
 .wave-1 {
   position: absolute;
   left: 0;
@@ -68,6 +81,8 @@ h2 {
 }
 
 /* MAIN SECTION */
+
+/* about me */
 
 .about-me {
   padding: 20px;
@@ -93,14 +108,4 @@ h2 {
   z-index: 2;
   background: var(--glass-gradient);
   backdrop-filter: blur(6px);
-}
-
-.circle-1 {
-  background: var(--primary-gradient);
-  height: 25rem;
-  width: 25rem;
-  position: absolute;
-  top: 1200px;
-  left: -100px;
-  border-radius: 50%;
 }
