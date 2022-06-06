@@ -35,7 +35,7 @@ body {
   width: 45rem;
   position: absolute;
   top: 1400px;
-  right: -200px;
+  right: 1px;
   border-radius: 50%;
 }
 
@@ -127,8 +127,6 @@ h3 {
 
 .project-img {
   width: 20rem;
-  padding: 2rem;
-  background-color: #00709f;
 }
 
 i {
