@@ -29,6 +29,16 @@ body {
   border-radius: 50%;
 }
 
+.circle-2 {
+  background: var(--primary-gradient);
+  height: 45rem;
+  width: 45rem;
+  position: absolute;
+  top: 1400px;
+  right: -200px;
+  border-radius: 50%;
+}
+
 .glass {
   position: relative;
   z-index: 2;
