@@ -117,9 +117,13 @@ h3 {
 
 .project-img {
   width: 20rem;
+  padding: 2rem;
+  background-color: #00709f;
 }
 
 i {
+  margin-left: 10px;
+  margin-right: 10px;
   transition: 200ms ease-in-out;
 }
 
