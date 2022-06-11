@@ -152,3 +152,35 @@ i:hover {
   align-items: center;
   justify-content: center;
 }
+
+.wave-2 {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.wave-2 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 251px;
+}
+
+.wave-2 .shape-fill {
+  fill: #ffffff;
+}
+
+/* FOOTER */
+.footer {
+  display: flex;
+  min-height: 90vh;
+  background: var(--primary-gradient);
+  text-align: center;
+}
+
+.contact-me {
+  margin-bottom: -550px;
+}
