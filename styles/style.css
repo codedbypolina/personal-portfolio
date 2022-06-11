@@ -176,11 +176,21 @@ i:hover {
 /* FOOTER */
 .footer {
   display: flex;
+  justify-content: center;
   min-height: 90vh;
   background: var(--primary-gradient);
   text-align: center;
 }
 
 .contact-me {
-  margin-bottom: -550px;
+  margin-bottom: -520px;
+}
+.info {
+  position: relative;
+  align-self: flex-end;
+}
+
+.credit {
+  font-size: 1.3rem;
+  font-weight: bold;
 }
