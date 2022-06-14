@@ -72,6 +72,25 @@ a:visited {
 
 /* HEADER */
 
+/* navbar */
+.navbar-nav {
+  margin-left: auto;
+}
+
+li {
+  padding: 10px;
+}
+
+.navbar {
+  background: var(--glass-gradient) !important;
+  backdrop-filter: blur(6px) !important;
+}
+
+.resume {
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
 .hero {
   min-height: 100vh;
   background: var(--primary-gradient);
@@ -207,4 +226,36 @@ i:hover {
 .credit {
   font-size: 1.3rem;
   font-weight: bold;
+}
+
+/* media queries */
+@media (max-width: 999px) {
+  .circle-2 {
+    height: 40rem;
+    width: 40rem;
+    top: 1700px;
+    right: 0px;
+  }
+
+@media (max-width: 760px) {
+ 
+  .circle-3 {
+    background: var(--primary-gradient);
+    height: 30rem;
+    width: 30rem;
+    position: absolute;
+    top: 2500px;
+    left: -10px;
+    border-radius: 50%;
+  }
+
+  .circle-4 {
+    background: var(--primary-gradient);
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    top: 3250px;
+    right: -10px;
+    border-radius: 50%;
+  }
 }
