@@ -229,7 +229,6 @@ i:hover {
   font-weight: bold;
 }
 
-
 /* MEDIA QUERIES */
 @media (max-width: 999px) {
   .circle-2 {
@@ -238,9 +237,9 @@ i:hover {
     top: 1700px;
     right: 0px;
   }
+}
 
 @media (max-width: 760px) {
- 
   .circle-3 {
     background: var(--primary-gradient);
     height: 30rem;
