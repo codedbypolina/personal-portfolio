@@ -55,7 +55,7 @@ a:visited {
   width: 45rem;
   position: absolute;
   top: 1400px;
-  right: -80px;
+  right: 0px;
   border-radius: 50%;
 }
 
@@ -235,7 +235,7 @@ i:hover {
     height: 40rem;
     width: 40rem;
     top: 1700px;
-    right: 0px;
+    right: 10px;
   }
 }
 
