@@ -260,3 +260,36 @@ i:hover {
     border-radius: 50%;
   }
 }
+
+/* Animation */
+.content {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+
+.word {
+  position: absolute;
+  opacity: 0;
+  left: 45%;
+}
+
+.letter {
+  display: inline-block;
+  transform: translateZ(25px);
+  transform-origin: 50% 50% 30px;
+}
+
+.letter.out {
+  transform: rotateX(90deg);
+  transform: transform 0.32s cubic-bezier(0.55, 0.055, 0.0675, 0.19);
+}
+
+.letter.in {
+  transform: rotateX(0deg);
+  transform: transform 0.32s cubic-bezier(0.175, 0.0855, 0.32, 1.275);
+}
+
+.letter.behind {
+  transform: rotate(-90deg);
+}
