@@ -240,6 +240,19 @@ i:hover {
 }
 
 @media (max-width: 760px) {
+  h1 {
+    font-size: 55px;
+    margin: 0;
+  }
+  h2 {
+    font-size: 25px;
+    white-space: pre-line;
+  }
+
+  .typing {
+    display: inline-block;
+  }
+
   .circle-3 {
     background: var(--primary-gradient);
     height: 30rem;
@@ -262,34 +275,32 @@ i:hover {
 }
 
 /* Animation */
-.content {
-  position: relative;
+.container {
   display: flex;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
 }
 
-.word {
+.typing {
+  position: relative;
+  font-style: italic;
+}
+
+.typing::after {
+  content: "";
   position: absolute;
-  opacity: 0;
-  left: 45%;
+  right: -7px;
+  width: 1px;
+  height: 90%;
+  border-right: 3px solid white;
+  animation: blink 0.6s infinite ease;
 }
 
-.letter {
-  display: inline-block;
-  transform: translateZ(25px);
-  transform-origin: 50% 50% 30px;
-}
-
-.letter.out {
-  transform: rotateX(90deg);
-  transform: transform 0.32s cubic-bezier(0.55, 0.055, 0.0675, 0.19);
-}
-
-.letter.in {
-  transform: rotateX(0deg);
-  transform: transform 0.32s cubic-bezier(0.175, 0.0855, 0.32, 1.275);
-}
-
-.letter.behind {
-  transform: rotate(-90deg);
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
