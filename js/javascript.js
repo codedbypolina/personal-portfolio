@@ -2,7 +2,7 @@ function animation() {
   const texts = [
     "Language Lover       ",
     "Enthusiastic Learner       ",
-    "Web Designer          ",
+    "Avid Reader          ",
   ];
   let index = 0;
   let count = 0;

@@ -152,6 +152,15 @@ li {
   margin-top: -150px;
 }
 
+#contact {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#contact:hover {
+  text-decoration: underline;
+}
+
 /* projects */
 
 .project-img {
