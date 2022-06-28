@@ -21,7 +21,7 @@ function animation() {
       index++;
       count = 0;
     }
-    setTimeout(type, 180);
+    setTimeout(type, 100);
   })();
 }
 animation();
