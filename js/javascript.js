@@ -19,7 +19,7 @@ function animation() {
 
     currentText = texts[index];
     letter = currentText.slice(0, ++count);
-    // console.log(letter); <DELETE ONCE POSTED)
+    // console.log(letter); --- DELETE ONCE POSTED ---
     document.querySelector(".typing").textContent = letter;
     if (letter.length === currentText.length) {
       index++;
