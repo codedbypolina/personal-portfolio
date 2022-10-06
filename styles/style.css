@@ -179,6 +179,10 @@ i:hover {
   opacity: 80%;
 }
 
+#coming-soon {
+  width: 250px;
+}
+
 /* contact me */
 
 .main-btn {
