@@ -1,4 +1,4 @@
-/* GENERAL */
+/* GENERAL STYLE */
 
 :root {
   --primary-color: #015d84;
@@ -111,7 +111,7 @@ li {
   padding-top: 300px;
 }
 
-/* top wave */
+/* top wave (used a tool from www.shapedivider.app) */
 
 .wave-1 {
   position: absolute;
@@ -194,7 +194,7 @@ i:hover {
   justify-content: center;
 }
 
-/* bottom wave */
+/* bottom wave (used a tool from www.shapedivider.app)*/
 
 .wave-2 {
   position: absolute;
@@ -286,6 +286,7 @@ i:hover {
 }
 
 /* Animation */
+
 .container {
   display: flex;
   align-items: center;
