@@ -309,6 +309,27 @@ i:hover {
     right: 10px;
     border-radius: 50%;
   }
+  /*
+  .credit {
+    padding-top: 3rem;
+  }
+
+  .pb-5 {
+    padding-bottom: 1.5rem !important;
+  }
+  */
+}
+
+@media (max-width: 400px) {
+  .circle-5 {
+    background: var(--primary-gradient);
+    height: 50rem;
+    width: 50rem;
+    position: absolute;
+    top: 4000px;
+    right: 10px;
+    border-radius: 50%;
+  }
 
   .circle-6 {
     background: var(--primary-gradient);
@@ -318,14 +339,6 @@ i:hover {
     top: 5369px;
     right: 10px;
     border-radius: 50%;
-  }
-
-  .credit {
-    padding-top: 3rem;
-  }
-
-  .pb-5 {
-    padding-bottom: 1.5rem !important;
   }
 }
 
