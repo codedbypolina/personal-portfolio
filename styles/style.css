@@ -328,6 +328,10 @@ i:hover {
     padding-top: 230px;
   }
 
+  .py-4 {
+    padding-top: 35.5rem !important;
+  }
+
   .circle-5 {
     background: var(--primary-gradient);
     height: 50rem;
