@@ -302,10 +302,10 @@ i:hover {
 
   .circle-5 {
     background: var(--primary-gradient);
-    height: 50rem;
-    width: 50rem;
+    height: 40rem;
+    width: 40rem;
     position: absolute;
-    top: 4000px;
+    top: 3800px;
     right: 10px;
     border-radius: 50%;
   }
