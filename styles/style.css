@@ -255,6 +255,14 @@ i:hover {
 }
 
 @media (max-width: 760px) {
+  .wave-1 svg {
+    width: calc(90% + 260px);
+  }
+
+  .wave-2 svg {
+    width: calc(100% + 530px);
+  }
+
   h1 {
     font-size: 55px;
     margin: 0;
