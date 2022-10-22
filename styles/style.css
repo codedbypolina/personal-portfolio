@@ -321,6 +321,13 @@ i:hover {
 }
 
 @media (max-width: 400px) {
+  #introduction {
+    font-weight: bold;
+    font-size: 28px;
+    margin: 0;
+    padding-top: 230px;
+  }
+
   .circle-5 {
     background: var(--primary-gradient);
     height: 50rem;
