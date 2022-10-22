@@ -276,13 +276,17 @@ i:hover {
     display: inline-block;
   }
 
+  .circle-2 {
+    top: 1900px;
+  }
+
   .circle-3 {
     background: var(--primary-gradient);
-    height: 20rem;
-    width: 20rem;
+    height: 30rem;
+    width: 30rem;
     position: absolute;
-    top: 2500px;
-    left: -20px;
+    top: 2775px;
+    left: -300px;
     border-radius: 50%;
   }
 
@@ -291,7 +295,7 @@ i:hover {
     height: 20rem;
     width: 20rem;
     position: absolute;
-    top: 3150px;
+    top: 3350px;
     right: 10px;
     border-radius: 50%;
   }
@@ -308,12 +312,20 @@ i:hover {
 
   .circle-6 {
     background: var(--primary-gradient);
-    height: 25rem;
-    width: 25rem;
+    height: 20rem;
+    width: 20rem;
     position: absolute;
-    top: 5500px;
-    left: -80px;
+    top: 5550px;
+    right: 10px;
     border-radius: 50%;
+  }
+
+  .credit {
+    padding-top: 3rem;
+  }
+
+  .pb-5 {
+    padding-bottom: 1.5rem !important;
   }
 }
 
