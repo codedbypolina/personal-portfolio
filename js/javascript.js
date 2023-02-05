@@ -1,8 +1,9 @@
 function animation() {
   const texts = [
     "Language Lover       ",
-    "Enthusiastic Learner       ",
     "Avid Reader          ",
+    "Proud Cat Mom          ",
+    "Outdoor Enthusiast        "
   ];
   let index = 0;
   let count = 0;
@@ -19,7 +20,6 @@ function animation() {
 
     currentText = texts[index];
     letter = currentText.slice(0, ++count);
-    // console.log(letter); --- DELETE ONCE POSTED ---
     document.querySelector(".typing").textContent = letter;
     if (letter.length === currentText.length) {
       index++;

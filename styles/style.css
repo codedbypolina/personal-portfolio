@@ -254,6 +254,16 @@ i:hover {
   }
 }
 
+/* MEDIA QUERIES */
+@media (max-width: 999px) {
+  .circle-2 {
+    height: 40rem;
+    width: 40rem;
+    top: 1700px;
+    right: 10px;
+  }
+}
+
 @media (max-width: 760px) {
   .wave-1 svg {
     width: calc(90% + 260px);
