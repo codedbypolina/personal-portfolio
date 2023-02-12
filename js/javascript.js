@@ -2,8 +2,8 @@ function animation() {
   const texts = [
     "Language Lover       ",
     "Avid Reader          ",
-    "Proud Cat Mom          ",
-    "Outdoor Enthusiast        "
+    "Outdoor Enthusiast        ",
+    "Proud Cat Mom          "
   ];
   let index = 0;
   let count = 0;
