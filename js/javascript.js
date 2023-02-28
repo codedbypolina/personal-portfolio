@@ -1,3 +1,6 @@
+console.log("Thank you for visiting my portfolio :)")
+
+
 function animation() {
   const texts = [
     "Language Lover       ",
