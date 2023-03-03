@@ -168,6 +168,10 @@ li {
   text-align: center;
 }
 
+.tool-size {
+  font-size: 5rem;
+}
+
 /* projects */
 
 .project-img {
@@ -257,15 +261,9 @@ i:hover {
     top: 1700px;
     right: 10px;
   }
-}
 
-/* MEDIA QUERIES */
-@media (max-width: 999px) {
-  .circle-2 {
-    height: 40rem;
-    width: 40rem;
-    top: 1700px;
-    right: 10px;
+  .tool-size {
+    font-size: 4rem;
   }
 }
 
@@ -289,6 +287,10 @@ i:hover {
 
   .typing {
     display: inline-block;
+  }
+
+  .tool-size {
+    font-size: 4rem;
   }
 
   .circle-2 {
@@ -345,6 +347,11 @@ i:hover {
 
   .py-4 {
     padding-top: 35.5rem !important;
+  }
+
+  .tool-size {
+    font-size: 3rem;
+    margin: 5px;
   }
 
   .circle-5 {
