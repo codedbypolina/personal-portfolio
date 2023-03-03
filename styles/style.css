@@ -163,6 +163,11 @@ li {
   text-decoration: underline;
 }
 
+.center {
+  margin: 15px 0px;
+  text-align: center;
+}
+
 /* projects */
 
 .project-img {
