@@ -184,8 +184,10 @@ i {
   transition: 200ms ease-in-out;
 }
 
-i:hover {
-  opacity: 80%;
+.fa-linkedin:hover,
+.fa-github:hover,
+.fa-twitter:hover {
+  opacity: 70%;
 }
 
 #coming-soon {
