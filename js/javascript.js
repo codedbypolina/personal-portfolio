@@ -3,6 +3,7 @@ console.log("Thank you for visiting my portfolio :)")
 
 function animation() {
   const texts = [
+    "Design Geek        ",
     "Language Lover       ",
     "Avid Reader          ",
     "Outdoor Enthusiast        ",
