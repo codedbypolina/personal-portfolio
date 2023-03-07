@@ -1,0 +1,18 @@
+:root {
+  --primary-color: #015d84;
+  --primary-gradient: linear-gradient(
+    to right top,
+    #00709f,
+    rgb(45, 191, 254, 0.2)
+  );
+  --glass-gradient: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+}
+
+body {
+  font-family: "Space Mono", monospace;
+  color: #015d84;
+}
