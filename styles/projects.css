@@ -1,3 +1,5 @@
+/* GENERAL STYLE */
+
 :root {
   --primary-color: #015d84;
   --primary-gradient: linear-gradient(
@@ -14,5 +16,68 @@
 
 body {
   font-family: "Space Mono", monospace;
-  color: #015d84;
+  color: var(--primary-color);
+}
+
+h1 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-weight: 400;
+  font-style: italic;
+}
+
+a:link,
+a:visited {
+  color: var(--primary-color);
+}
+
+/* glass effect */
+
+.glass {
+  position: relative;
+  z-index: 2;
+  background: var(--glass-gradient);
+  backdrop-filter: blur(6px);
+  padding: 20px;
+  margin: 5%;
+}
+
+* HEADER */
+
+/* navbar */
+.navbar-nav {
+  margin-left: auto;
+}
+
+li {
+  padding: 10px;
+}
+
+.navbar {
+  background: var(--glass-gradient) !important;
+  backdrop-filter: blur(6px) !important;
+  margin-top: -80px;
+}
+
+.resume {
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.hero {
+  background: var(--primary-gradient);
+  text-align: center;
+  padding-top: 200px;
+}
+
+.intro {
+  height: 400px;
+  position: relative;
 }
