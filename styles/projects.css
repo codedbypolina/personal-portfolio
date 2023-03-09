@@ -81,3 +81,11 @@ li {
   height: 400px;
   position: relative;
 }
+
+#overview-section > h3 {
+  align-items: center;
+}
+
+#overview-description {
+  display: grid;
+}
