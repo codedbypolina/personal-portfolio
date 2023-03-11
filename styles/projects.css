@@ -49,7 +49,7 @@ a:visited {
   margin: 5%;
 }
 
-* HEADER */
+/* HEADER */
 
 /* navbar */
 .navbar-nav {
@@ -78,14 +78,39 @@ li {
 }
 
 .intro {
-  height: 400px;
+  height: 1000px;
   position: relative;
 }
 
-#overview-section > h3 {
-  align-items: center;
+#overview-title {
+  text-align: center;
+}
+
+#overview-section {
+  margin-top: -770px;
 }
 
 #overview-description {
   display: grid;
+}
+
+/* top wave (used a tool from www.shapedivider.app) */
+
+.wave-1 {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave-1 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 218px;
+}
+
+.wave-1 .shape-fill {
+  fill: #ffffff;
 }
