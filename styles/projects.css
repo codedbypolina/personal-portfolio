@@ -117,3 +117,7 @@ li {
 .wave-1 .shape-fill {
   fill: #ffffff;
 }
+
+#footer {
+  text-align: center;
+}
