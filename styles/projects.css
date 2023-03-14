@@ -38,6 +38,10 @@ a:visited {
   color: var(--primary-color);
 }
 
+a:hover {
+  opacity: 70%;
+}
+
 /* glass effect */
 
 .glass {
