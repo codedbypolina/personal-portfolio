@@ -38,7 +38,13 @@ a:visited {
   color: var(--primary-color);
 }
 
-a:hover {
+i {
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: 200ms ease-in-out;
+}
+
+.fa-2x:hover {
   opacity: 70%;
 }
 
