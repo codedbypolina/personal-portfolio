@@ -152,3 +152,25 @@ li {
   text-align: center;
   margin-bottom: 40px;
 }
+
+#user-one,
+#user-two {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 50px;
+}
+
+#enthusiast,
+#personal {
+  align-self: center;
+}
+
+.user-defined {
+  width: 30%;
+  margin: 50px;
+}
+
+#user-persona {
+  display: flex;
+}
