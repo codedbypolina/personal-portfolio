@@ -178,3 +178,11 @@ li {
 .section {
   padding: 5%;
 }
+
+.left-column {
+  padding-left: 150px;
+}
+
+.right-column {
+  padding-left: 100px;
+}
